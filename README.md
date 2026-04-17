@@ -57,34 +57,6 @@ The **Smart Car System Simulation** is a complete embedded system simulator that
 
 ### High-Level Architecture
 
-```mermaid
-graph TB
-    subgraph "User Interface Layer"
-        A[Terminal Display]
-        B[Menu System]
-        C[Command Input]
-    end
-    
-    subgraph "Control Layer"
-        D[Main Controller]
-        E[Real-time Scheduler]
-        F[Event Handler]
-    end
-    
-    subgraph "Core Modules"
-        G[Engine Control Unit]
-        H[Fuel Management]
-        I[Speed Controller]
-        J[Brake System]
-        K[Fault Detector]
-        L[Sensor Manager]
-    end
-    
-    subgraph "Data Layer"
-        M[System State]
-        N[Event Logs]
-        O[Diagnostics Data]
-    end
     
     A --> D
     B --> D
@@ -107,33 +79,6 @@ graph TB
     N --> B
     O --> B
 
-
-### Component Interaction Diagram
-
-```mermaid
-graph LR
-    subgraph "Input Devices"
-        UI[User Input]
-        TIM[Timer]
-    end
-    
-    subgraph "ECU Core"
-        MAIN[Main Loop]
-        UPDATE[Update Engine]
-    end
-    
-    subgraph "Actuators"
-        THROTTLE[Throttle Control]
-        BRAKE_ACT[Brake Actuator]
-        FUEL_INJ[Fuel Injector]
-    end
-    
-    subgraph "Sensors"
-        SPEED_SEN[Speed Sensor]
-        FUEL_SEN[Fuel Sensor]
-        BRAKE_SEN[Brake Pressure]
-        TEMP_SEN[Temperature]
-    end
     
     UI --> MAIN
     TIM --> UPDATE
