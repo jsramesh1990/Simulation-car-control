@@ -1,4 +1,4 @@
-# 🚗 Smart Car Embedded System Simulation
+#  Smart Car Embedded System Simulation
 
 [![C++](https://img.shields.io/badge/C++-17-blue.svg?style=for-the-badge&logo=c%2B%2B)](https://isocpp.org/)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Mac%20%7C%20Windows-lightgrey.svg?style=for-the-badge)](https://github.com/)
@@ -9,7 +9,7 @@
 
 > A comprehensive terminal-based embedded system simulation for a smart car with real-time monitoring, fault detection, and interactive controls.
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [System Architecture](#system-architecture)
@@ -24,7 +24,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+##  Overview
 
 The **Smart Car System Simulation** is a complete embedded system simulator that mimics the behavior of a modern car's electronic control unit (ECU). It provides real-time monitoring of critical vehicle parameters, interactive control capabilities, and intelligent fault detection mechanisms.
 
@@ -35,25 +35,25 @@ The **Smart Car System Simulation** is a complete embedded system simulator that
 - **Interactive Commands**: 10+ controls
 - **Fault Types**: 4 detection categories
 
-## ✨ Features
+##  Features
 
 ### Core Features
-- ✅ **Real-time Simulation Loop** - Automatic updates every 2 seconds
-- ✅ **Engine Control System** - Start/stop with realistic behavior
-- ✅ **Fuel Monitoring** - Dynamic consumption based on throttle and speed
-- ✅ **Speed Management** - Real-time speed variations with limits (0-180 km/h)
-- ✅ **Brake System** - Normal and emergency braking with pressure simulation
-- ✅ **Intelligent Fault Detection** - Automatic fault identification and logging
+-  **Real-time Simulation Loop** - Automatic updates every 2 seconds
+-  **Engine Control System** - Start/stop with realistic behavior
+-  **Fuel Monitoring** - Dynamic consumption based on throttle and speed
+-  **Speed Management** - Real-time speed variations with limits (0-180 km/h)
+-  **Brake System** - Normal and emergency braking with pressure simulation
+-  **Intelligent Fault Detection** - Automatic fault identification and logging
 
 ### Advanced Features
-- 🎯 **Cruise Control System** - Maintain set speed automatically
-- 📊 **System Diagnostics** - Detailed component status and metrics
-- 📝 **Event Logging** - Timestamped system events (50 log capacity)
-- 🔧 **Sensor Simulation** - Speed, fuel, and brake sensor failures
-- 🎨 **Color-coded UI** - Visual feedback for different states
-- ⚠️ **Priority Warnings** - Low fuel, overheating, brake issues
+-  **Cruise Control System** - Maintain set speed automatically
+-  **System Diagnostics** - Detailed component status and metrics
+-  **Event Logging** - Timestamped system events (50 log capacity)
+-  **Sensor Simulation** - Speed, fuel, and brake sensor failures
+-  **Color-coded UI** - Visual feedback for different states
+-  **Priority Warnings** - Low fuel, overheating, brake issues
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ### High-Level Architecture
 
@@ -91,7 +91,7 @@ The **Smart Car System Simulation** is a complete embedded system simulator that
     TEMP_SEN --> MAIN
 ```
 
-## 🔄 Flow Diagrams
+##  Flow Diagrams
 
 ### Main Simulation Loop
 
@@ -198,7 +198,7 @@ flowchart LR
     end
 ```
 
-## 📊 UML Diagrams
+##  UML Diagrams
 
 ### Class Diagram
 
@@ -330,7 +330,7 @@ sequenceDiagram
     end
 ```
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - **C++ Compiler** (GCC 7+, Clang 5+, or MSVC 2019+)
@@ -382,7 +382,7 @@ make
 ./smart_car_simulation
 ```
 
-## 🎮 Usage
+##  Usage
 
 ### Quick Start
 1. Launch the program from terminal
@@ -400,7 +400,7 @@ Brake Pressure: 100%
 Throttle: 30%
 ```
 
-## 🎛️ Controls
+##  Controls
 
 | Option | Action | Description |
 |--------|--------|-------------|
@@ -416,7 +416,7 @@ Throttle: 30%
 | **10** | Sensor Failure | Simulates sensor malfunctions |
 | **0** | Exit | Shuts down simulation |
 
-## 🔧 Simulation Modules
+##  Simulation Modules
 
 ### 1. Engine Control Unit (ECU)
 - Start/stop engine with realistic behavior
@@ -456,7 +456,7 @@ Throttle: 30%
 - **Brake Pressure Sensor**: Monitors brake system health
 - **Temperature Sensor**: Engine temperature monitoring
 
-## 📊 Technical Specifications
+##  Technical Specifications
 
 ### System Parameters
 ```
@@ -479,7 +479,7 @@ Response Time:      < 100ms
 Display Refresh:    Real-time
 ```
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Main Dashboard
 ```
@@ -507,7 +507,7 @@ Throttle:    30%
 - 🔵 **Blue**: Information/Menu
 - 🟠 **Cyan**: System messages
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -527,20 +527,9 @@ Contributions are welcome! Here's how you can help:
 - [ ] Add more fault scenarios
 - [ ] Create configuration file support
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2024 Smart Car Simulation
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files...
 ```
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Inspired by modern automotive ECU systems
 - Built with C++17 standards
@@ -548,23 +537,23 @@ of this software and associated documentation files...
 - Real-time simulation design patterns
 
 
-## 🎨 Live Terminal Graphics Dashboard
+##  Live Terminal Graphics Dashboard
 
 ### Real-time Display Preview
 
 ```
 ╔══════════════════════════════════════════════════════════════════╗
-║           SMART CAR LIVE DASHBOARD - REAL TIME DISPLAY          ║
+║           SMART CAR LIVE DASHBOARD - REAL TIME DISPLAY           ║
 ╚══════════════════════════════════════════════════════════════════╝
 
 ┌─────────────────────────────────────────┐
 │           DIGITAL SPEEDOMETER           │
 ├─────────────────────────────────────────┤
-│              ╔═════════════════╗               │
-│              ║     60 km/h     ║               │
-│              ╚═════════════════╝               │
-│              ────▲───────────────────              │
-│              0     60     120     180              │
+│             ╔═════════════════╗         │
+│             ║     60 km/h     ║         │
+│             ╚═════════════════╝         │
+│             ────▲───────────────────    │
+│             0     60     120     180    │
 └─────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────┐
@@ -573,8 +562,8 @@ of this software and associated documentation files...
 │  ╔══════════════════════════════════════╗  │
 │  ║██████████████████░░░░░░░░░░░░░░░░░░░░║  │
 │  ╚══════════════════════════════════════╝  │
-│                    45% FULL                     │
-│                  Range: 540 km                    │
+│                    45% FULL             │
+│                  Range: 540 km          │
 └─────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────┐
@@ -607,9 +596,9 @@ of this software and associated documentation files...
 └─────────────────────────────────────────┘
 ```
 
-## ✨ Features of the Enhanced Version
+##  Features of the Enhanced Version
 
-### 🎨 Real-time Terminal Graphics
+###  Real-time Terminal Graphics
 - **Digital Speedometer** - Large display with analog needle representation
 - **Fuel Gauge** - Animated fuel tank with color-coded levels
 - **Tachometer** - RPM gauge with redline warning
@@ -617,13 +606,13 @@ of this software and associated documentation files...
 - **Brake System** - Pressure and wear indicators
 - **Warning Panel** - Visual alert system
 
-### 📊 Live Visual Elements
+###  Live Visual Elements
 - **ASCII Art Gauges** - Beautiful box-drawing characters
 - **Color-coded Bars** - Green (good), Yellow (warning), Red (critical)
 - **Animated Ticker** - Scrolling status text at bottom
 - **Real-time Updates** - All gauges update every 2 seconds
 
-### 🎮 Interactive Controls
+###  Interactive Controls
 | Option | Action |
 |--------|--------|
 | 1 | Accelerate (+10 km/h) |
@@ -638,7 +627,7 @@ of this software and associated documentation files...
 | 10 | Sensor Simulation |
 | 0 | Exit |
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # Clone and compile
@@ -650,7 +639,7 @@ g++ -o smart_car smart_car_simulation.cpp -std=c++11 -pthread
 ./smart_car
 ```
 
-## 📊 Color Coding Legend
+##  Color Coding Legend
 - 🟢 **Green** - Normal/Good status
 - 🟡 **Yellow** - Warning/Caution  
 - 🔴 **Red** - Critical/Danger
@@ -659,7 +648,7 @@ g++ -o smart_car smart_car_simulation.cpp -std=c++11 -pthread
 ---
 
 
-## 📈 Version History
+##  Version History
 
 - **v3.0** (Current)
   - Added cruise control system
